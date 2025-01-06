@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+body{font-family: 'Noto Sans kr';
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    position:relative;/*sub_bg 기준*/
+}
+
+#container{width: 1320px; height: 1320px; margin: 0 auto;}
+img{display:block; width:1320px; height: 920px;}
+
+.scroll-menu{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+.scroll-menu ul{
+	width:400px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+}
+/* .scroll-content{
+    height: 2000px;
+} */
+
+.scroll-fixed{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.scroll-menu ul li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fd8383;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.scroll-menu ul li:hover a{color: #ccc;}
